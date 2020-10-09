@@ -1,0 +1,338 @@
+/*navbar*/
+.container{
+    
+    background-color: gray;
+    overflow: hidden;
+    width: 100%;
+    background-color: transparent; 
+    position: fixed;
+   box-shadow: 0px 2px 3px #636e72;
+
+   
+}
+/*logo*/
+.logo{
+    float: left;
+    padding: 0px;
+    margin: 0px;
+}
+/*liste de nav*/
+.nav>ul{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    float:right;
+}
+.nav>ul>li{
+    display: inline-block;
+  
+   
+}
+.nav>ul>li>a{
+    text-decoration: none;
+    color:black;
+    display: block;
+    padding: 15px;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 30px;
+}
+.nav>ul>li:hover{
+    border: 2px solid black;
+}
+/*back ground*/
+#img{
+   
+    width:100%;
+   
+    z-index: -1;
+
+
+}
+/*Nom et Profession*/
+#element{
+    float: right;
+    font-weight: bold;
+    font-size: 70px;
+    font-family: 'Cabin Sketch', cursive;
+    width: 50%;
+   margin-top:-700px;
+   z-index: 1;
+   position: relative;
+ 
+   
+}
+/*Boutton contacter moi */
+#bt{
+float: right;
+margin-top: -300px;
+margin-left: 200px;
+margin-right: 250px;
+border: black;
+background-color:  #dfe6e9;
+font-weight: bold;
+font-family: 'Cabin Sketch', cursive;
+font-size: 30px;
+z-index: 3;
+position: relative;
+background-color:#2d3436;
+color: white
+
+}
+#bt:hover{
+    background-color: black;
+}
+/*Titre about me*/
+#About{
+    font-weight: bold;
+    font-family: 'Cabin Sketch', cursive;
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 0 0 3px black;
+    
+    color: black;
+   
+    
+}
+/*bouton contact me*/
+#bt a{
+    text-decoration: none;
+   color:white;
+}
+/*Description*/
+#description{
+    font-family: 'Cabin Sketch', cursive;
+  font-size: 20px;
+    width: 100%;
+    font-weight: bold;
+    text-align:justify;
+    background-color: #7f8fa6;
+    height: 60px;
+   
+    color: black;
+
+    
+}
+/*SErvices*/
+#serv{
+    font-weight: bold;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 60px;
+    text-align: center;
+    margin: 570px;
+    text-shadow: 0 0 3px black;
+    
+    color: black; 
+
+}
+/*Skills*/
+#compétence{
+    font-weight: bold;
+    font-family:'Cabin Sketch', cursive;
+    font-size: 60px;
+    text-align: center;
+    margin: 570px;
+    
+        text-shadow: 0 0 3px black;
+       
+      
+    color: black;
+    
+
+}
+
+/*telecharger mon cv */
+#bt2{
+ float: right;  
+/*margin-top: -300px;
+margin-left: 200px;
+margin-right: 250px;*/
+border: black;
+background-color:#636e72;
+font-weight: bold;
+font-family: 'Cabin Sketch', cursive;
+font-size: 30px;
+color: white;
+margin-right: 200px;
+margin-top: 50px;
+
+}
+.container2{
+    display:flex;
+    justify-content: space-between;
+
+}
+#s1{
+    font-family: 'Cabin Sketch', cursive;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+   
+}
+.element2{
+height: 225px;
+
+
+}
+.element2:hover{
+    transform: scale(0.5, 0.5);/*decrease the size of an elemment*/
+
+}
+.element3:hover{ transform: scale(0.5, 0.5);}
+.element1:hover{ transform: scale(0.5, 0.5);}
+.element3{
+    height: 225px;
+}
+
+.container3 {
+  width: 200px; 
+  background-color: #ddd; 
+}
+
+.skills {
+  text-align: right; 
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+  color: white; 
+  
+}
+
+.html {width: 90%; background-color: #808080;} 
+.css {width: 80%; background-color: #808080;} 
+.js {width: 65%; background-color: #808080;} 
+.android{ width: 60%; background-color: #808080; }
+.java{width: 80%; background-color: #808080;}
+.illustrator{width: 30%; background-color: #808080;}
+
+
+#web{
+    color: black;
+    font-size: 30px;
+    font-weight: lighter;
+    font-family:'Cabin Sketch', cursive;
+    height: 225px;
+    text-decoration: underline wavy gray;
+}
+
+
+
+    #mobile{
+        color: black;
+        font-size: 30px;
+        font-weight: lighter;
+        font-family: 'Cabin Sketch', cursive;  
+        float: right;
+        margin-right: 600px;
+        margin-top: -320px;
+        text-decoration:  underline wavy gray;
+    }
+  #center1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -265px;
+
+  }
+  #ux{
+    color: black;
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: 'Cabin Sketch', cursive;  
+    float: right;
+    margin-right: 100px;
+    margin-top: -320px; 
+    text-decoration:  underline wavy gray;
+  }
+  #end{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -265px;
+    margin-right: -950px;
+    margin-top: -180px;
+     
+      
+  }
+  #form{
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: column;
+      margin-top: 250px;
+      width: 383px;
+      height: 322px;
+     
+  }
+ #map{
+      float: right;  
+          margin-top: -310px; 
+          height: 400px;   
+  }
+  .footer {
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#636e72;
+    color: white;
+    text-align: center;
+    height: 30px;
+  }
+    #foot{
+        color: white;
+        text-align: center;
+        margin-top: 10px; 
+    }
+ 
+    fieldset {
+        padding:0 20px 20px 20px;
+        margin-bottom:10px;
+        border:1px solid #b2bec3;
+        box-shadow: 3px 4px 4px #636e72;/*shadow autour du nav */
+        width: 476px;
+        }   
+    #t1{
+        width: 300px;
+        border:1px solid #2d3436;
+        box-shadow: 3px 4px 4px #636e72;
+        border-radius: 3px;
+
+    }
+    #t2{
+        border:1px solid #2d3436;
+        box-shadow: 3px 4px 4px #636e72;
+        border-radius: 3px;
+
+    }
+  #bt3{ width:300px;
+ margin-left:5px;
+ box-shadow:1px 1px 1px #2d3436;
+ cursor:pointer;
+ border-radius: 3px;
+}
+#l{
+    font-family: 'Cabin Sketch', cursive;
+     font-size: large;
+     font-weight: bold;
+     font-size: 30px;
+     color: black;
+
+}
+.vertical{
+    border-left: 2px solid #000;
+        display: inline-block;
+        height: 400px;
+        margin: 10px;
+        margin-left: 650px;
+        margin-top: -320px;
+   
+}
+#bt2>a{
+    text-decoration: none;
+    color: white;
+}
+p{ font-family: 'Cabin Sketch', cursive;
+font-weight: bold;
+color: black;}
+.footer i{
+    color: black;
+}
+
